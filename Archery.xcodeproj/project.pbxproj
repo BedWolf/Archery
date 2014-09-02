@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0219831E19B5EF9C00E6DCFB /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0219831D19B5EF9C00E6DCFB /* Competition.m */; };
+		0219832119B5F00F00E6DCFB /* Arbitre.m in Sources */ = {isa = PBXBuildFile; fileRef = 0219832019B5F00F00E6DCFB /* Arbitre.m */; };
+		0219832719B5F1BE00E6DCFB /* Volee.m in Sources */ = {isa = PBXBuildFile; fileRef = 0219832619B5F1BE00E6DCFB /* Volee.m */; };
+		0219832A19B5F25900E6DCFB /* Fleche.m in Sources */ = {isa = PBXBuildFile; fileRef = 0219832919B5F25900E6DCFB /* Fleche.m */; };
 		41D137411996110900C5752D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D137401996110900C5752D /* Foundation.framework */; };
 		41D137431996110900C5752D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D137421996110900C5752D /* CoreGraphics.framework */; };
 		41D137451996110900C5752D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D137441996110900C5752D /* UIKit.framework */; };
@@ -21,6 +25,11 @@
 		41D137621996110900C5752D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D137441996110900C5752D /* UIKit.framework */; };
 		41D1376A1996110900C5752D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41D137681996110900C5752D /* InfoPlist.strings */; };
 		41D1376C1996110900C5752D /* ArcheryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D1376B1996110900C5752D /* ArcheryTests.m */; };
+		41D2B0D71999A31500FF68B2 /* ViewControllerTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2B0D61999A31500FF68B2 /* ViewControllerTrain.m */; };
+		41EAB6FD19966FB600636E2A /* ViewControllerNewTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAB6FC19966FB600636E2A /* ViewControllerNewTrain.m */; };
+		41EAB7C51996D16500636E2A /* ViewControllerHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAB7C41996D16500636E2A /* ViewControllerHistory.m */; };
+		41EAB7C81996D1BB00636E2A /* ViewControllerCompetitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAB7C71996D1BB00636E2A /* ViewControllerCompetitions.m */; };
+		41EAB80F1996DFDC00636E2A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAB80E1996DFDC00636E2A /* HistoryCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0219831C19B5EF9C00E6DCFB /* Competition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competition.h; sourceTree = "<group>"; };
+		0219831D19B5EF9C00E6DCFB /* Competition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competition.m; sourceTree = "<group>"; };
+		0219831F19B5F00F00E6DCFB /* Arbitre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbitre.h; sourceTree = "<group>"; };
+		0219832019B5F00F00E6DCFB /* Arbitre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arbitre.m; sourceTree = "<group>"; };
+		0219832519B5F1BE00E6DCFB /* Volee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volee.h; sourceTree = "<group>"; };
+		0219832619B5F1BE00E6DCFB /* Volee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volee.m; sourceTree = "<group>"; };
+		0219832819B5F25900E6DCFB /* Fleche.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fleche.h; sourceTree = "<group>"; };
+		0219832919B5F25900E6DCFB /* Fleche.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fleche.m; sourceTree = "<group>"; };
 		41D1373D1996110900C5752D /* Archery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D137401996110900C5752D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41D137421996110900C5752D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,16 @@
 		41D137671996110900C5752D /* ArcheryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArcheryTests-Info.plist"; sourceTree = "<group>"; };
 		41D137691996110900C5752D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41D1376B1996110900C5752D /* ArcheryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcheryTests.m; sourceTree = "<group>"; };
+		41D2B0D51999A31500FF68B2 /* ViewControllerTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTrain.h; sourceTree = "<group>"; };
+		41D2B0D61999A31500FF68B2 /* ViewControllerTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTrain.m; sourceTree = "<group>"; };
+		41EAB6FB19966FB600636E2A /* ViewControllerNewTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerNewTrain.h; sourceTree = "<group>"; };
+		41EAB6FC19966FB600636E2A /* ViewControllerNewTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerNewTrain.m; sourceTree = "<group>"; };
+		41EAB7C31996D16500636E2A /* ViewControllerHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHistory.h; sourceTree = "<group>"; };
+		41EAB7C41996D16500636E2A /* ViewControllerHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHistory.m; sourceTree = "<group>"; };
+		41EAB7C61996D1BB00636E2A /* ViewControllerCompetitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCompetitions.h; sourceTree = "<group>"; };
+		41EAB7C71996D1BB00636E2A /* ViewControllerCompetitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCompetitions.m; sourceTree = "<group>"; };
+		41EAB80D1996DFDC00636E2A /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		41EAB80E1996DFDC00636E2A /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +106,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0219831B19B5EF7900E6DCFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0219831C19B5EF9C00E6DCFB /* Competition.h */,
+				0219831D19B5EF9C00E6DCFB /* Competition.m */,
+				0219831F19B5F00F00E6DCFB /* Arbitre.h */,
+				0219832019B5F00F00E6DCFB /* Arbitre.m */,
+				0219832519B5F1BE00E6DCFB /* Volee.h */,
+				0219832619B5F1BE00E6DCFB /* Volee.m */,
+				0219832819B5F25900E6DCFB /* Fleche.h */,
+				0219832919B5F25900E6DCFB /* Fleche.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		41D137341996110900C5752D = {
 			isa = PBXGroup;
 			children = (
@@ -112,9 +154,20 @@
 		41D137461996110900C5752D /* Archery */ = {
 			isa = PBXGroup;
 			children = (
+				0219831B19B5EF7900E6DCFB /* Models */,
 				41D1374F1996110900C5752D /* AppDelegate.h */,
 				41D137501996110900C5752D /* AppDelegate.m */,
 				41D137521996110900C5752D /* Main.storyboard */,
+				41D2B0D51999A31500FF68B2 /* ViewControllerTrain.h */,
+				41D2B0D61999A31500FF68B2 /* ViewControllerTrain.m */,
+				41EAB7C61996D1BB00636E2A /* ViewControllerCompetitions.h */,
+				41EAB7C71996D1BB00636E2A /* ViewControllerCompetitions.m */,
+				41EAB7C31996D16500636E2A /* ViewControllerHistory.h */,
+				41EAB7C41996D16500636E2A /* ViewControllerHistory.m */,
+				41EAB80D1996DFDC00636E2A /* HistoryCell.h */,
+				41EAB80E1996DFDC00636E2A /* HistoryCell.m */,
+				41EAB6FB19966FB600636E2A /* ViewControllerNewTrain.h */,
+				41EAB6FC19966FB600636E2A /* ViewControllerNewTrain.m */,
 				41D137551996110900C5752D /* ViewController.h */,
 				41D137561996110900C5752D /* ViewController.m */,
 				41D137581996110900C5752D /* Images.xcassets */,
@@ -199,6 +252,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = BedWolf;
 				TargetAttributes = {
+					41D1373C1996110900C5752D = {
+						DevelopmentTeam = 9ZFJCEJ8C9;
+					};
 					41D1375D1996110900C5752D = {
 						TestTargetID = 41D1373C1996110900C5752D;
 					};
@@ -250,7 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D137571996110900C5752D /* ViewController.m in Sources */,
+				41EAB80F1996DFDC00636E2A /* HistoryCell.m in Sources */,
 				41D137511996110900C5752D /* AppDelegate.m in Sources */,
+				41EAB7C81996D1BB00636E2A /* ViewControllerCompetitions.m in Sources */,
+				41EAB6FD19966FB600636E2A /* ViewControllerNewTrain.m in Sources */,
+				0219832119B5F00F00E6DCFB /* Arbitre.m in Sources */,
+				41D2B0D71999A31500FF68B2 /* ViewControllerTrain.m in Sources */,
+				0219831E19B5EF9C00E6DCFB /* Competition.m in Sources */,
+				0219832A19B5F25900E6DCFB /* Fleche.m in Sources */,
+				0219832719B5F1BE00E6DCFB /* Volee.m in Sources */,
+				41EAB7C51996D16500636E2A /* ViewControllerHistory.m in Sources */,
 				41D1374D1996110900C5752D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,10 +441,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Archery/Archery-Prefix.pch";
 				INFOPLIST_FILE = "Archery/Archery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Archery/Archery-Prefix.pch";
 				INFOPLIST_FILE = "Archery/Archery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +527,7 @@
 				41D137711996110900C5752D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41D137721996110900C5752D /* Build configuration list for PBXNativeTarget "ArcheryTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +536,7 @@
 				41D137741996110900C5752D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

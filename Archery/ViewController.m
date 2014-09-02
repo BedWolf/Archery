@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)History:(id)sender {
+}
+
+- (IBAction)Competitons:(id)sender {
+}
+
+- (IBAction)NewTrainButton:(id)sender {
+}
+
 @end

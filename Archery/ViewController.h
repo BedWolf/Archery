@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)History:(id)sender;
+- (IBAction)Competitons:(id)sender;
+- (IBAction)NewTrainButton:(id)sender;
 
 @end
